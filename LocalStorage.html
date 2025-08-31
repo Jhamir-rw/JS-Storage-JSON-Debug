@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo localStorage y sessionStorage</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    input { margin: 5px 0; padding: 5px; }
+    button { margin: 5px; padding: 5px 10px; }
+    .caja { margin-top: 15px; padding: 10px; border: 1px solid #ccc; }
+  </style>
+  
+</head>
+<body>
+  <h1>Ejemplo con localStorage y sessionStorage</h1>
+
+  <!-- Guardar nombre en localStorage -->
+  <!--Inicio de una caja contenedora(Es como una cajita)-->
+  <div class="caja">
+    <h3>Nombre (localStorage)</h3>
+    <!--Entrada de tipo texto, id es el nombre unico del cuadro de texto
+    y placeholder es lo que se va mostrar dentro del cuadro como un tipo de ayuda -->
+    <input type="text" id="nombre" placeholder="Escribe tu nombre">
+    <button id="guardarNombre">Guardar nombre</button>
+    <!--El párrafo se muestra vacio porque luego va mostrarse información gracias al js-->
+    <p id="saludo"></p>
+  </div>
+
+  <!-- Guardar color en sessionStorage -->
+  <div class="caja">
+    <h3>Color favorito (sessionStorage)</h3>
+    <input type="text" id="color" placeholder="Escribe tu color favorito">
+    <button id="guardarColor">Guardar color</button>
+    <p id="mensajeColor"></p>
+  </div>
+
+  <!-- Enlazar con el Html con el js -->
+  <!--le dice al navegador:Carga y ejecuta el archivo llamado LocalStorage.js 
+  que está en la misma carpeta que mi HTML-->
+  <script src="LocalStorage.js"></script>
+</body>
+</html>

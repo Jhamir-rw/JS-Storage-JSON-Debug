@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Tareas con JSON</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    input, button { padding: 8px; margin: 5px 0; }
+    ul { list-style: none; padding: 0; }
+    li { margin: 5px 0; padding: 5px; background: #f2f2f2; border-radius: 5px; }
+    .completada { text-decoration: line-through; color: gray; }
+  </style>
+</head>
+<body>
+  <h1>Lista de Tareas</h1>
+  <input type="text" id="tareaInput" placeholder="Escribe una tarea">
+  <button id="agregarBtn">Agregar</button>
+  <!--Es una lista de elementos que no tiene un orden numérico-->
+  <ul id="listaTareas"></ul>
+
+  <script src="Json.js"> </script>
+</body>
+</html>

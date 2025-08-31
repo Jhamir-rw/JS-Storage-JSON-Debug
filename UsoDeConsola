@@ -1,0 +1,23 @@
+// Ejemplo simple de depuración en JS
+
+function suma(a, b) {
+  console.log("Valores recibidos:", a, b); // Revisamos los valores
+  /*debugger pausa la ejecución del código en este punto.
+Cuando el depurador está abierto (en navegador o Node.js con inspección):
+Puedes ver los valores de todas las variables (a, b, resultado).
+Avanzar línea por línea para entender cómo fluye el código.
+  */
+  debugger;
+  let resultado = a + b;
+  console.log("Resultado de la suma:", resultado); // Revisamos el resultado
+  return resultado;
+}
+
+// Valores que simulan input del usuario
+let valor1 = 5; 
+let valor2 = 7; 
+
+// Llamar a la función
+let total = suma(valor1, valor2);
+
+console.log("Total final:", total);
