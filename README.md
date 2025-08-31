@@ -13,12 +13,11 @@ Este repositorio muestra **LocalStorage y SessionStorage**, **JSON**, y **depura
 - 🫰 **Console.log / debugger**:  
   Ayudan a ver y depurar el código, mostrando valores de variables y pausando la ejecución para inspección.
  ## Diagrama de flujo de LocalStorage
- ### LocalStorage
-![LocalStorage](LOCALSTORAGE.PNG)
+### LocalStorage
+<img src="LOCALSTORAGE.PNG" alt="LocalStorage" width="1000"/>
 
 ### SessionStorage
-![SessionStorage](SESSIONSTORAGE.PNG)
+<img src="SESSIONSTORAGE.PNG" alt="SessionStorage" width="1000"/>
 
 ### JSON
-![JSON](JSON.PNG)
-    
+<img src="JSON.PNG" alt="JSON" width="1000"/>
