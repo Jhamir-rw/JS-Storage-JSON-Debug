@@ -12,3 +12,5 @@ Este repositorio muestra **LocalStorage y SessionStorage**, **JSON**, y **depura
 
 - 🫰 **Console.log / debugger**:  
   Ayudan a ver y depurar el código, mostrando valores de variables y pausando la ejecución para inspección.
+ ## Diagrama de flujo de LocalStorage
+    
