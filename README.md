@@ -83,6 +83,8 @@ document.getElementById("guardarColor").addEventListener("click", function(){
 ## 📸 Captura de SessionStorage
 <img src="SESSIONSTORAGE.PNG" alt="SessionStorage" width="1000"/>
 
+![Image](https://github.com/user-attachments/assets/741004b5-1dd6-4efe-affe-46af1d2c7ee8)
+<img width="1591" height="81" alt="image" src="https://github.com/user-attachments/assets/b33f802f-e0e8-489a-9f9e-8c36416a69f8" />
 ## JSON
 ### 📌 Ejemplo HTML
 ```
